@@ -1,0 +1,12 @@
+.layout-container{
+    color: #ffffff;
+    margin: 30px 100px;
+    margin-bottom: 20px;
+};
+.btn-portfolio-icon{
+    align-items: center;
+}
+.btn-portfolio-icon:hover{
+    background-color: orange;
+    color: #ffffff;
+};

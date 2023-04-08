@@ -1,0 +1,21 @@
+.header-container{
+    margin: 0 100px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px 30px;
+};
+.btn-contact-icon{
+    align-items: center;
+}
+.btn-contact-icon:hover{
+    background-color: orange;
+    color: #ffffff;
+}
+.contact-icon{
+    margin-left: 10px;
+}
