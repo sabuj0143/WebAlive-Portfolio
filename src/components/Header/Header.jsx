@@ -11,11 +11,12 @@ const Header = () => {
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/portfolio">Portfolio</Link>
+                <Link to="/shop">Shop</Link>
                 <Link to="/blogs">Blogs</Link>
                 <Link to="/about">About us</Link>
                 <Link to="/services">Services</Link>
             </nav>
-            <button className='btn-contact-icon'>
+            <button className='btn-contact-icon text-black'>
                 <span>Contact Us</span>
                 <FontAwesomeIcon className='contact-icon' icon={faArrowRight} />
             </button>

@@ -13,6 +13,9 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import ErrorPage from './components/error/Errorpage';
+import Shop from './components/Shop/Shop';
+import Services from './components/Services/Services';
+import Blog from './components/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -29,8 +32,17 @@ const router = createBrowserRouter([
         element: <Portfolio></Portfolio>
       },
       {
+        path: '/shop',
+        element: <Shop></Shop>
+      },
+      {
         path: '/blogs',
-        element: <Blogs></Blogs>
+        element: <Blogs></Blogs>,
+        loader: () => fetch('blogs.json')
+      },  
+      {
+        path: '/services',
+        element: <Services></Services>
       },
       {
         path: '/about',
